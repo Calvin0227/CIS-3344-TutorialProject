@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html">
+<head>
+    <meta charset="utf-8" />
+    <title>NBA Team Management</title>
+
+    <script src="bin/Debug/bridge/bridge.js"></script>
+    <script src="bin/Debug/bridge/bridge.console.js"></script>
+    <script src="bin/Debug/bridge/bridge.meta.js"></script>
+    <script src="bin/Debug/bridge/newtonsoft.json.js"></script>
+    <script src="bin/Debug/bridge/Demo.js"></script>
+    <script src="bin/Debug/bridge/Demo.meta.js"></script>
+    <link href="TutorialProject.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1>NBA team Manager</h1>
+    <h2>Choose your Starting 5</h2>
+    <h2>Lets see how Creative you can be</h2>
+
+    <div id="court">
+        <div id="teamInfo">
+            <div id="teamInfoName"></div>
+            <div id="teamInfoStadium"></div>
+            <div id="teamInfoCity"></div>
+            <div id="teamInfoState"></div>
+        </div>
+        <br />
+        <br />
+        <div id="pointGuard"></div>
+        <div id="shootingGuard"></div>
+        <div id="smallForward"></div>
+        <div id="powerForward"></div>
+        <div id="center"></div>
+    </div>
+
+    <div id="summary">
+        <h2>Players In Your Team (Max Star = 18):</h2>
+        <div id="pointGuardSpot">Point Guard: </div>
+        <div id="shootingGuardSpot">Shooting Guard: </div>
+        <div id="smallForwardSpot">Small Forward: </div>
+        <div id="powerForwardSpot">Power Forward: </div>
+        <div id="centerSpot">Center: </div>
+    </div>
+    <br />
+
+    <div class="dropdown">
+        Choose Position to Display
+        <br />
+        <button class="dropBtn">Here</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="#iteams" id="ShowPointGuard">Point Guard</a>
+            <a href="#iteams" id="ShowShootingGuard">Shooting Guard</a>
+            <a href="#iteams" id="ShowSmallForward">Small Forward</a>
+            <a href="#iteams" id="ShowPowerForward">Power Forward</a>
+            <a href="#iteams" id="ShowCenter">Center</a>
+        </div>
+    </div>
+
+    <table id="teamTable">
+        <tr>
+            <td><h3>Team Information Here</h3></td>
+        </tr>
+        <tr>
+            <td>Team Name: </td>
+            <td><input id="txtTeamName" type="text" /></td>
+        </tr>
+        <tr>
+            <td>Stadium Name: </td>
+            <td><input id="txtStadiumName" type="text" /></td>
+        </tr>
+        <tr>
+            <td>City: </td>
+            <td><input id="txtCity" type="text" /></td>
+        </tr>
+        <tr>
+            <td>State (Format XX): </td>
+            <td><input id="txtState" type="text" /></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="button" id="btnTeamSubmit" value="Build Your Team" />
+            </td>
+        </tr>
+    </table>
+    <table id="items" border="1"></table>
+    <br />
+
+</body>
+
+</html>

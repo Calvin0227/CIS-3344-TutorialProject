@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1433
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nbaManager", "Demo\nbaManager.csproj", "{52C1B120-EBEE-47B4-8171-BEF7FD68B51A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52C1B120-EBEE-47B4-8171-BEF7FD68B51A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52C1B120-EBEE-47B4-8171-BEF7FD68B51A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52C1B120-EBEE-47B4-8171-BEF7FD68B51A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52C1B120-EBEE-47B4-8171-BEF7FD68B51A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9C1A612-CBE4-4609-B1F3-8B5CFE7C1BAF}
+	EndGlobalSection
+EndGlobal

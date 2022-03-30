@@ -1,0 +1,12 @@
+C:\Users\Evan\Bridge.NET\Demo\Demo\bin\Debug\Demo.dll
+C:\Users\Evan\Bridge.NET\Demo\Demo\bin\Debug\Demo.pdb
+C:\Users\Evan\Bridge.NET\Demo\Demo\bin\Debug\Bridge.dll
+C:\Users\Evan\Bridge.NET\Demo\Demo\bin\Debug\Bridge.Html5.dll
+C:\Users\Evan\Bridge.NET\Demo\Demo\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Evan\Bridge.NET\Demo\Demo\bin\Debug\Bridge.xml
+C:\Users\Evan\Bridge.NET\Demo\Demo\bin\Debug\Bridge.Html5.xml
+C:\Users\Evan\Bridge.NET\Demo\Demo\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Evan\Bridge.NET\Demo\Demo\obj\Debug\nbaManager.csproj.CoreCompileInputs.cache
+C:\Users\Evan\Bridge.NET\Demo\Demo\obj\Debug\nbaManager.csproj.CopyComplete
+C:\Users\Evan\Bridge.NET\Demo\Demo\obj\Debug\Demo.dll
+C:\Users\Evan\Bridge.NET\Demo\Demo\obj\Debug\Demo.pdb
